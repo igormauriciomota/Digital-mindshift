@@ -9,7 +9,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(230, 85%, 35%);
   --title-color: hsl(230, 70%, 16%);
-  --text-color: hsl(230, 16%, 45%);
+  --text-color: hsla(229, 16%, 45%, 0.797);
   --border-color: hsl(230, 50%, 90%);
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(230, 100%, 96%);
@@ -237,7 +237,7 @@ img {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: hsla(230, 12%, 96%, .6);
+  background-color: hsla(240, 10%, 96%, 0.412);
   backdrop-filter: blur(16px);
   padding: 8rem 1.5rem;
   transition: top .4s;
@@ -279,7 +279,27 @@ img {
 }
 
 /*=============== LOGIN ===============*/
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-fixed);
+  background-color: hsla(240, 10%, 96%, 0.494);
+  backdrop-filter: blur(0px);
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+  transition: top .4s;
+}
 
+.login__form {
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border: 2px solid var(--border-color);
+  row-gap: 1.25rem;
+}
 
 /* Show login */
 
