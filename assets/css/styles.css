@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(230, 62%, 56%);
+  --first-color: hsl(230, 85%, 35%);
   --title-color: hsl(230, 70%, 16%);
   --text-color: hsl(230, 16%, 45%);
   --border-color: hsl(230, 50%, 90%);
@@ -235,7 +235,7 @@ img {
   top: -100%;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 100%;
   z-index: 100;
   background-color: hsla(230, 12%, 96%, .6);
   backdrop-filter: blur(16px);
