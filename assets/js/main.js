@@ -3,23 +3,43 @@ const searchButton = document.getElementById('search-button'),
         searchClose = document.getElementById('search__close'),
         searchContent = document.getElementById('search-content')
 
-/*=============== MENU SHOW ===============*/
+/*=============== SEARCH SHOW ===============*/
 /* Validate if constant exists */
 if (searchButton){
         searchButton.addEventListener('click', () =>{
-            searchContent.classList.add('show-search')
+        searchContent.classList.add('show-search')
         })
 }
 
-/*=============== MENU HIDDEN ===============*/
+/*=============== SEARCH HIDDEN ===============*/
 /* Validate if constant exists */
 if (searchClose){
-    searchClose.addEventListener('click', () =>{
+        searchClose.addEventListener('click', () =>{
         searchContent.classList.add('show-search')
         })
 }
 
 /*=============== LOGIN ===============*/
+
+const loginButton = document.getElementById('login-button'),
+        loginClose = document.getElementById('login__close'),
+        loginContent = document.getElementById('login-content')
+
+/*=============== LOGIN SHOW ===============*/
+/* Validate if constant exists */
+if (loginButton){
+        loginButton.addEventListener('click', () =>{
+        loginContent.classList.add('show-login')
+        })
+}
+
+/*=============== LOGIN HIDDEN ===============*/
+/* Validate if constant exists */
+if (loginClose){
+        loginClose.addEventListener('click', () =>{
+        loginContent.classList.add('show-login')
+        })
+}
 
 
 /*=============== ADD SHADOW HEADER ===============*/

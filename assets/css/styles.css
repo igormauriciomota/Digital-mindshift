@@ -281,13 +281,14 @@ img {
 /*=============== LOGIN ===============*/
 .login {
   position: fixed;
-  top: 0;
+  top: -100%;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: var(--z-fixed);
   background-color: hsla(240, 10%, 96%, 0.494);
-  backdrop-filter: blur(0px);
+  /* bur: 0px, 4px, 8px, 12px, 16px */
+  backdrop-filter: blur(16px);
   align-items: center;
   padding: 1.5rem;
   text-align: center;
@@ -345,6 +346,11 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.login__button {
+  width: 100%;
+  cursor: pointer;
+}
+
 .login__close {
   position: absolute;
   top: 2rem;
@@ -355,7 +361,9 @@ img {
 }
 
 /* Show login */
-
+.show-login {
+  top: 0;
+}
 
 /*=============== HOME ===============*/
 
@@ -373,6 +381,9 @@ img {
   transition: box-shadow .4s;
 }
 
+button:hover {
+  box-shadow: 0 4px 32px hsl(230, 72%, 32%, .4);
+}
 /*=============== SERVICES ===============*/
 
 
