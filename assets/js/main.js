@@ -1,6 +1,6 @@
 /*=============== SEARCH ===============*/
 const searchButton = document.getElementById('search-button'),
-        searchClose = document.getElementById('search__close'),
+        searchClose = document.getElementById('search-close'),
         searchContent = document.getElementById('search-content')
 
 /*=============== SEARCH SHOW ===============*/
@@ -22,7 +22,7 @@ if (searchClose){
 /*=============== LOGIN ===============*/
 
 const loginButton = document.getElementById('login-button'),
-        loginClose = document.getElementById('login__close'),
+        loginClose = document.getElementById('login-close'),
         loginContent = document.getElementById('login-content')
 
 /*=============== LOGIN SHOW ===============*/
