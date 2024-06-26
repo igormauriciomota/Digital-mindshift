@@ -1,7 +1,7 @@
 /*=============== SEARCH ===============*/
-const searchButton = document.getElementById('search-button'),
-        searchClose = document.getElementById('search-close'),
-        searchContent = document.getElementById('search-content')
+const   searchButton = document.getElementById("procurar-button"),
+        searchClose = document.getElementById("search-close"),
+        searchContent = document.getElementById("search-content")
 
 /*=============== SEARCH SHOW ===============*/
 /* Validate if constant exists */
@@ -21,7 +21,7 @@ if (searchClose){
 
 /*=============== LOGIN ===============*/
 
-const loginButton = document.getElementById('login-button'),
+const   loginButton = document.getElementById('login-button'),
         loginClose = document.getElementById('login-close'),
         loginContent = document.getElementById('login-content')
 
