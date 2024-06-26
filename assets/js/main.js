@@ -1,7 +1,7 @@
 /*=============== SEARCH ===============*/
-const   searchButton = document.getElementById("procurar-button"),
-        searchClose = document.getElementById("search-close"),
-        searchContent = document.getElementById("search-content")
+const   searchButton = document.getElementById('search-button'),
+        searchClose = document.getElementById('search-close'),
+        searchContent = document.getElementById('search-content')
 
 /*=============== SEARCH SHOW ===============*/
 /* Validate if constant exists */
@@ -15,7 +15,7 @@ if (searchButton){
 /* Validate if constant exists */
 if (searchClose){
         searchClose.addEventListener('click', () =>{
-        searchContent.classList.add('show-search')
+        searchContent.classList.remove('show-search')
         })
 }
 
@@ -26,7 +26,7 @@ const   loginButton = document.getElementById('login-button'),
         loginContent = document.getElementById('login-content')
 
 /*=============== LOGIN SHOW ===============*/
-/* Validate if constant exists */
+/* Validate if constant exists (add) adiciona */
 if (loginButton){
         loginButton.addEventListener('click', () =>{
         loginContent.classList.add('show-login')
@@ -34,10 +34,10 @@ if (loginButton){
 }
 
 /*=============== LOGIN HIDDEN ===============*/
-/* Validate if constant exists */
+/* Validate if constant exists (remove)*/
 if (loginClose){
         loginClose.addEventListener('click', () =>{
-        loginContent.classList.add('show-login')
+        loginContent.classList.remove('show-login')
         })
 }
 

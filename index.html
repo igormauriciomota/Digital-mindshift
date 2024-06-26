@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <!-- <script src="assets/js/jquery-3.7.1.min.js"></script> -->
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
@@ -74,7 +74,7 @@
 
                <div class="nav__actions">
                <!-- Botao de Pesquisa/search button -->
-               <i class="ri-search-line search-button" id="procurar-button"></i>
+               <i class="ri-search-line search-button" id="search-button"></i>
 
                <!-- Botao de login usuario/login-button (11:09m)-->
                <i class="ri-user-line login-button" id="login-button"></i>
@@ -91,10 +91,10 @@
          <div class="search" id="search-content">
             <form action="" class="search__form">
                <i class="ri-search-line search__icon"></i>
-               <input type="search" placeholder="What are you looking for?" class="search__input">
+               <input type="search" placeholder="O que você está procurando?" class="search__input">
             </form>
             <!-- Pesquisa fechada -->
-            <i class="ri-close-line search__close" id="search__close"></i>
+            <i class="ri-close-line search__close" id="search-close"></i>
          </div>
 
          <!--==================== LOGIN ====================-->
@@ -143,13 +143,36 @@
                      </h1>
 
                      <p class="home__description">
-                        Find the best e-books from your favorite
-                        writers, explore hundreds of books with all
-                        possible categories, take advantage of the
-                        50% discount and much more.
+                        Encontre os Produtos digitais de diferentes temas,
+                        explore nosso site em todas as
+                        categorias possíveis, aproveite o
+                        50% de desconto e muito mais..
                      </p>
                      <a href="#" class="button">Explore Now</a>
                   </div>
+
+                  <div class="home__images">
+                     <div class="home__swiper swiper">
+                        <div>
+                           <article class="home__article">
+                              <img src="assets/img/1.png" alt="" class="home__img">
+                           </article>
+
+                           <article class="home__article">
+                              <img src="assets/img/2.png" alt="" class="home__img">
+                           </article>
+
+                           <article class="home__article">
+                              <img src="assets/img/3.png" alt="" class="home__img">
+                           </article>
+
+                           <article class="home__article">
+                              <img src="assets/img/4.png" alt="" class="home__img">
+                           </article>
+                        </div>
+                     </div>
+                  </div>
+
                </div>
             </section>
 
