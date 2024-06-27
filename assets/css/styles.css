@@ -223,7 +223,7 @@ img {
 
 /* Add shadow header */
 .shadow-header {
-  box-shadow: 0;
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .1);
 }
 
 /* Active link */
@@ -420,6 +420,25 @@ button:hover {
   box-shadow: 0 4px 32px hsl(230, 72%, 32%, .4);
 }
 /*=============== SERVICES ===============*/
+.services__container {
+  row-gap: 3rem;
+}
+
+.services__card {
+  text-align: center;
+}
+
+.services__card i {
+  display: block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
 
 
 /*=============== FEATURED ===============*/
