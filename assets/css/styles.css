@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 5rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -160,6 +160,10 @@ img {
   column-gap: .5rem;
   color: var(--first-color);
   font-weight: var(--font-medium);
+  max-width:210px;
+  max-height:210px;
+  width: auto;
+  height: auto;
 }
 
 .nav__logo i {
@@ -525,6 +529,9 @@ button:hover {
 .swiper-slide-duplicate-active {
   scale: 1;
 }
+
+/* ===============INFOPRODUTOS===============*/
+
 
 /*=============== DISCOUNT ===============*/
 
