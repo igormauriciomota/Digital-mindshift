@@ -58,7 +58,7 @@ let swiperHome = new Swiper('.home__swiper', {
         spaceBetween: -24,
         grabCursor: true,
         slidesPerView: 'auto',
-        conteredSlides: 'auto',
+        centeredSlides: 'auto',
 
         autoplay: {
                 delay: 3000,
@@ -74,6 +74,25 @@ let swiperHome = new Swiper('.home__swiper', {
 
 /*=============== FEATURED SWIPER ===============*/
 
+const swiperFeatured = new Swiper('.swiper-featured', {
+        loop: true,
+        spaceBetween: 16,
+        grabCursor: true,
+        slidesPerView: 'auto',
+        centeredSlides: 'auto',
+    
+        navigation: {
+                nextEl: 'swiper-button-next',
+                prevEl: 'swiper-button-prev',
+        },
+    
+        breakpoints: {
+                1150: {
+                        slidesPerView: 4,
+                        centeredSlides: false,
+                }
+        }
+    })
 
 /*=============== NEW SWIPER ===============*/
 

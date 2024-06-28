@@ -32,7 +32,7 @@ const scrollHeader = () =>{
     const header = document.getElementById('header')
     // Add a class if the bottom offset is greater than 50 of the viewport
     this.scrollY >= 50 ? header.classList.add('scroll-header')
-    : header.classList.remove('scroll-header')
+                        : header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
 
@@ -144,4 +144,26 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+})
+
+/*=============== FEATURED SWIPER ===============*/
+
+let swiperFeatured = new Swiper('.swiper-wrapper', {
+    loop: true,
+    spaceBetween: 16,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+
+    navigation: {
+            nextEl: 'swiper-button-next',
+            prevEl: 'swiper-button-prev',
+    },
+
+    breakpoints: {
+            1150: {
+                    slidesPerView: 4,
+                    centeredSlides: false,
+            }
+    }
 })
