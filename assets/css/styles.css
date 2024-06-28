@@ -404,11 +404,6 @@ img {
   scale: .8;
 }
 /* ====Swiper class===== */
-.swiper-featured {
-  width: 500px;
-  height: 500px;
-}
-
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: ' ';
@@ -526,7 +521,10 @@ button:hover {
 
 
 /* =======Swiper class======= */
-
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  scale: 1;
+}
 
 /*=============== DISCOUNT ===============*/
 

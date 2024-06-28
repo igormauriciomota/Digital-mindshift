@@ -43,7 +43,7 @@ if (loginClose){
 
 
 /*=============== ADD SHADOW HEADER ===============*/
-const scrollHeader = () =>{
+const shadowHeader = () =>{
         const header = document.getElementById('header')
         // Add a class if the bottom offset is greater than 50 of the viewport
         this.scrollY >= 50 ? header.classList.add('shadow-header')
@@ -70,7 +70,7 @@ let swiperHome = new Swiper('.home__swiper', {
                         spaceBetween: -32,
                 }
         }
-});
+})
 
 /*=============== FEATURED SWIPER ===============*/
 
@@ -80,19 +80,19 @@ const swiperFeatured = new Swiper('.swiper-featured', {
         grabCursor: true,
         slidesPerView: 'auto',
         centeredSlides: 'auto',
-    
+
         navigation: {
                 nextEl: 'swiper-button-next',
                 prevEl: 'swiper-button-prev',
         },
-    
+
         breakpoints: {
                 1150: {
                         slidesPerView: 4,
                         centeredSlides: false,
                 }
         }
-    })
+})
 
 /*=============== NEW SWIPER ===============*/
 
