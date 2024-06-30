@@ -95,6 +95,29 @@ const swiperFeatured = new Swiper('.swiper-featured', {
         }
 })
 
+/* ==================== Infoprodutos ====================*/
+const swiperInfoprodutos = new Swiper('.swiper-infoprodutos', {
+        loop: true,
+        spaceBetween: 16,
+        grabCursor: true,
+        slidesPerView: 'auto',
+        centeredSlides: 'auto',
+
+        // Navigation arrows
+        navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+                1150: {
+                        slidesPerView: 4,
+                        centeredSlides: false,
+                }
+        }
+})
+
+
 /*=============== NEW SWIPER ===============*/
 let swiperNew = new Swiper('.new-swiper', {
         loop: true,

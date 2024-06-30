@@ -621,7 +621,10 @@ button:hover {
 .new__stars {
   color: var(--first-color);
 }
-
+/* Separar um container de outro */
+.new-swiper {
+  margin-bottom: 2rem;
+}
 /*=============== JOIN ===============*/
 
 
