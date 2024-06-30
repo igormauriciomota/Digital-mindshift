@@ -96,7 +96,17 @@ const swiperFeatured = new Swiper('.swiper-featured', {
 })
 
 /*=============== NEW SWIPER ===============*/
+let swiperNew = new Swiper('.new-swiper', {
+        loop: true,
+        spaceBetween: 16,
+        slidesPerView: 'auto',
 
+        breakpoints: {
+                1150: {
+                        slidesPerView: 3,
+                }
+        }
+})
 
 /*=============== TESTIMONIAL SWIPER ===============*/
 
