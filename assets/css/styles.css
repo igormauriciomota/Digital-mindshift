@@ -665,6 +665,7 @@ button:hover {
   background-color: var(--body-color);
   color: var(--title-color);
   transition: background-color .4s;
+  width: 300px;
 }
 
 .join__input::placeholder {
