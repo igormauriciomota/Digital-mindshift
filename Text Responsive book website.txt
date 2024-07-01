@@ -127,29 +127,29 @@ eBooks from all your <br>
 favorite writers.
 
 footer__title .footer__link
-About
- Awards
- FAQs
- Privacy policy
- Terms of services
+About - Sobre
+ Awards  -Prêmios
+ FAQs - Perguntas frequentes
+ Privacy policy- Política de Privacidade
+ Terms of services - Termos de serviços
 
-Company
- Blogs
- Community
- Our team
- Help center
+Company - Empresa
+ Blogs - Blogues
+ Community - Comunidade
+ Our team - Nosso time
+ Help center - Central de ajuda
 
 Contact
- Av. Hacienda <br>
- Lima 4321, Perú 
-
- e.book@email.com <br>
- 0987-654-321
+ Av. Das Acacias <br>
+    ST - MG Brasil
+mindshiftconsultoriacontabil@gmail.com
+  <br>
+ +55 (31) 97534-0765
 
 Social
  https://www.facebook.com/
- https://www.instagram.com/
- https://twitter.com/
+ https://www.instagram.com/mindshiftconsultoria/
+
 
 .footer__copy
 &#169; All Rights Reserved By Bedimcode
