@@ -102,13 +102,29 @@ img {
 
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme {
+  --title-color: hsl(230, 48%, 85%);
+  --text-color: hsla(230, 16%, 70%);
+  --border-color: hsl(230, 12%, 18%);
+  --body-color: hsla(230, 12%, 8%);
+  --container-color: hsla(230, 9%, 39%, 0.861);
+}
 
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
+.dark-theme .shadow-header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .4);
+}
 
+.dark-theme .nav__menu {
+  box-shadow: 0 -8px 32px hsla(0, 0%, 0%, .4);
+}
+
+.dark-theme .scrollup {
+  box-shadow: 0 2px 8px hsla(0, 0%, 0%, .4);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -231,7 +247,9 @@ img {
 }
 
 /* Active link */
-
+.active-link {
+  color: var(--first-color);
+}
 
 /*=============== SEARCH ===============*/
 /* mecanismo de procura */
@@ -773,13 +791,43 @@ button:hover {
 
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(230, 16%, 85%);
+}
 
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: hsl(230, 16%, 65%);
+}
 
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(230, 16%, 55%);
+}
 /*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  background-color: var(--container-color);
+  box-shadow: 0 2px 8px hsla(0, 0%, 0%, .1);
+  display: inline-flex;
+  padding: 6px;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  z-index: var(--z-tooltip);
+  transition: bottom .4s, transform .4s, background-color .4s;
+}
 
+.scrollup:hover {
+  transform: translateY(-.5rem);
+}
 
 /* Show Scroll Up */
-
+.show-scroll {
+  bottom: 6rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
