@@ -126,6 +126,23 @@ body.dark-theme {
   box-shadow: 0 2px 8px hsla(0, 0%, 0%, .4);
 }
 
+.dark-theme .search,
+.dark-theme .login {
+  background-color: hsla(229, 26%, 17%, 0.929);
+}
+
+.dark-theme::-webkit-scrollbar {
+  background-color: hsl(230, 16%, 25%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb {
+  background-color: hsl(230, 16%, 35%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(230, 16%, 45%);
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 100%;
@@ -831,7 +848,20 @@ button:hover {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container{
+    margin-inline: 3rem;
+  }
 
+  .nav__menu {
+    padding-inline: 3rem;
+  }
+
+  .discount__img-1,
+  .discount__img-2 {
+    width: 140px;
+  }
+}
 
 /* For medium devices */
 
