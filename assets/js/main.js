@@ -111,7 +111,7 @@ const swiperInfoprodutos = new Swiper('.swiper-infoprodutos', {
 
         breakpoints: {
                 1150: {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                         centeredSlides: false,
                 }
         }
