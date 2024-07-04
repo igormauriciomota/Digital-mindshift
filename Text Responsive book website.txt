@@ -141,9 +141,9 @@ Company - Empresa
 
 Contact
  Av. Das Acacias <br>
-    ST - MG Brasil
-mindshiftconsultoriacontabil@gmail.com
-  <br>
+ ST - MG Brasil
+
+ mindshiftconsultoriacontabil@gmail.com<br>
  +55 (31) 97534-0765
 
 Social

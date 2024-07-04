@@ -1,12 +1,13 @@
 # Digital mindshift
-# Responsive Digital Product website
+# Site Responsivo de Produto Digital
 
-- Responsive Digital Product website Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a search & login modal.
-- Includes a dark & light theme.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Site Responsivo de Produto Digital em HTML CSS & JavaScript
+- Container Animado ao rolar.
+- Rolagem suave em cada seção.
+- Contém um modal de pesquisa e login.
+- Inclui um tema escuro e claro.
+- Desenvolvido primeiro com a metodologia Mobile First, depois para desktop.
+- Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável.
 
-![preview img](/preview.png)
+![preview img](/preview1.png)
+![preview img](/preview2.png)
