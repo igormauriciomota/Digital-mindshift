@@ -1046,4 +1046,26 @@ button:hover {
     font-size: var(--h3-font-size);
   }
 
+  .join__bg {
+    object-position: 0 -.5rem;
+  }
+  
+  .testimonial__container {
+    padding-top: 2rem;
+  }
+
+  .testimonial__card {
+    padding-inline: 2rem;
+  }
+
+  .testimonial__title {
+    font-size: var(--h3-font-size);
+  }
+
+  .testimonial__description {
+    font-size: var(--normal-font-size);
+  }
+
+
+
 }
