@@ -1,5 +1,5 @@
-# Bibilioteca digital
-# Projeto Site Responsivo Bibilioteca Digital
+# Bibilioteca Virtual 
+# Projeto Site Responsivo Biblioteca Virtual de Educação Financeira e Jurídica
 
 - Site Responsivo de E-books.
 - Conteudo Educativo para Jovens e Adutos.
