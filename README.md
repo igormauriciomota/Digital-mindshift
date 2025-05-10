@@ -1,7 +1,9 @@
-# Digital mindshift
-# Site Responsivo de Produto Digital
+# Bibilioteca digital
+# Projeto Site Responsivo Bibilioteca Digital
 
-- Site Responsivo de Produto Digital em HTML CSS & JavaScript
+- Site Responsivo de E-books.
+- Conteudo Educativo para Jovens e Adutos.
+- E-Books sobre finanças, contabilidade e direito do trabalho.
 - Container Animado ao rolar.
 - Rolagem suave em cada seção.
 - Contém um modal de pesquisa e login.
