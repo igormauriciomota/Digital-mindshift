@@ -11,7 +11,7 @@
 - Desenvolvido primeiro com a metodologia Mobile First, depois para desktop.
 - Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável.
 
-- 
+- https://igormauriciomota.github.io/Digital-mindshift/
 
 ![preview img](/preview1.png)
 ![preview img](/preview2.png)
